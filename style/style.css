@@ -32,6 +32,7 @@ body .container {
 body .container .firstSection {
   background-color: #f0e3c4;
   margin-right: 10px;
+  height: 250px;
 }
 body .container .firstSection ul {
   list-style: none;
@@ -102,6 +103,55 @@ body .container .thirdSection {
   width: 40%;
   background-color: #f0e3c4;
   padding: 20px;
+}
+body .container .thirdSection h3 {
+  color: #daa592;
+  font-size: 20px;
+  font-weight: bold;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #daa592;
+  margin-bottom: 15px;
+}
+body .container .thirdSection nav {
+  margin: 10px 15px;
+  width: 95%;
+  display: flex;
+  justify-content: space-around;
+}
+body .container .thirdSection nav a {
+  width: 50%;
+  background-color: #daa592;
+  font-size: 18px;
+  text-decoration: none;
+  color: #83142c;
+  font-size: 16px;
+  padding: 5px 10px;
+  margin-right: 10px;
+}
+body .container .thirdSection h3 {
+  margin: 20px;
+}
+body .container .thirdSection h3 i {
+  color: #daa592;
+}
+body .container .thirdSection .education {
+  padding: 20px;
+  border: 2px solid #daa592;
+  margin-bottom: 20px;
+  width: 85%;
+  margin-left: 15px;
+}
+body .container .thirdSection .education h5 {
+  color: black;
+  font-weight: bold;
+  font-size: 18px;
+}
+body .container .thirdSection .education span {
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+}
+body .container .thirdSection .education p {
+  font-size: 14px;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -19,6 +19,9 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 
+$mainColor: #daa592;
+$fontTitles: 'Montserrat', sans-serif;
+
 body{
     background-image: url("../image/apple-new.jpg");
     font-family: 'Poppins', sans-serif;
@@ -30,6 +33,7 @@ body{
         .firstSection{
             background-color: #f0e3c4;
             margin-right: 10px;
+            height: 250px;
             ul{
                 list-style: none;
                 li{
@@ -100,6 +104,56 @@ body{
             width: 40%;
             background-color: #f0e3c4;
             padding: 20px;
+            h3{
+                color: $mainColor;
+                font-size: 20px;
+                font-weight: bold;
+                padding-bottom: 15px;
+                border-bottom: 1px solid #daa592;
+                margin-bottom: 15px;
+            }
+            nav{
+                margin: 10px 15px;
+                width: 95%;
+                display: flex;
+                justify-content: space-around;
+                a{
+                    width: 50%;
+                    background-color: $mainColor;
+                    font-size: 18px;
+                    text-decoration: none;
+                    color: #83142c;
+                    font-size: 16px;
+                    padding: 5px 10px;
+                    margin-right: 10px;
+                }
+            }
+            h3{
+                margin: 20px;
+                i{
+                    color: $mainColor;
+                    
+                }
+            }    
+            .education{
+                padding: 20px;
+                border: 2px solid #daa592;
+                margin-bottom: 20px;
+                width: 85%;
+                margin-left: 15px; 
+                h5{
+                    color: black;
+                    font-weight: bold;
+                    font-size: 18px;
+                }
+                span{
+                    font-family: $fontTitles;
+                    font-size: 14px;
+                }
+                p{
+                    font-size: 14px;
+                }
+            }
         }
     }
 }
